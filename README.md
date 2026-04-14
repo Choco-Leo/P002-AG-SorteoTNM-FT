@@ -1,9 +1,39 @@
 # SorteoTNM
 
-Sistema web desarrollado en Angular para la gestión y visualización de grupos en competencias deportivas institucionales.
+## Sistema de Gestión de Grupos Deportivos (SorteoTNM)
 
-Permite registrar, editar y eliminar grupos, así como filtrarlos por instituto, deporte y categoría. Además, ofrece una vista clara y organizada de los grupos definidos y actualizados, facilitando el seguimiento de las competencias en eventos.
+El proyecto SorteoTNM es una aplicación web desarrollada para facilitar la organización de eventos deportivos del Tecnológico Nacional de México. Permite registrar, editar y visualizar grupos de diferentes instituciones tecnológicas participantes en diversas disciplinas deportivas.
 
+## Características
+
+- Visualización de grupos : Interfaz pública para consultar los grupos formados por deporte
+- Filtrado de información : Búsqueda por institución, deporte y grupo
+- Gestión de grupos : Registro, edición y eliminación de grupos (requiere autenticación)
+- Autenticación de usuarios : Sistema de login para administradores
+- Interfaz responsiva : Diseño adaptable a diferentes dispositivos
+
+## Tecnologías
+
+### Frontend (SorteoTNM)
+- Framework : Angular 19
+- Lenguaje : TypeScript
+- Estilos : CSS con Bootstrap 5
+- Comunicación : HttpClient para consumo de API REST
+
+## Endpoints API
+
+### Públicos
+- POST / - Obtener grupos (con filtros opcionales)
+- POST /loginST - Iniciar sesión
+  
+### Protegidos (requieren autenticación)
+- POST /logoutST - Cerrar sesión
+- POST /registerGrupoST - Registrar nuevo grupo
+- PUT /edit-GruposST - Actualizar grupo existente
+- POST /edit-GruposST - Obtener grupo por parámetros
+- DELETE /edit-GruposST/:id - Eliminar grupo
+- POST /resultadosST - Obtener resultados filtrados
+  
 ## Vista previa
 
 <p align="center">
