@@ -4,6 +4,15 @@ Sistema web desarrollado en Angular para la gestión y visualización de grupos 
 
 Permite registrar, editar y eliminar grupos, así como filtrarlos por instituto, deporte y categoría. Además, ofrece una vista clara y organizada de los grupos definidos y actualizados, facilitando el seguimiento de las competencias en eventos.
 
+<p align="center">
+
+<img src="public/pw01.png" width="600">
+<img src="public/pw02.png" width="600">
+<img src="public/pw03.png" width="600">
+<img src="public/pw04.png" width="600">
+<img src="public/pw05.png" width="600">
+
+</p>
 
 ## Development server
 
