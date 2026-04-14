@@ -2,7 +2,7 @@
 
 Sistema web desarrollado en Angular para la gestión y visualización de grupos en competencias deportivas institucionales.
 
-Permite registrar, editar y eliminar grupos, así como filtrarlos por instituto, deporte y categoría. Además, ofrece una vista clara y organizada de los grupos definidos y actualizados, facilitando el seguimiento de las competencias en eventos como el Prenacional del Tecnológico Nacional de México.
+Permite registrar, editar y eliminar grupos, así como filtrarlos por instituto, deporte y categoría. Además, ofrece una vista clara y organizada de los grupos definidos y actualizados, facilitando el seguimiento de las competencias en eventos.
 
 
 ## Development server
